@@ -1,0 +1,49 @@
+﻿Process:
+SELECT DISTINCT product_name, product_id FROM temp-424017.GroceryStoreConsumerPurchases_Data.Product_Data 
+#determines if there are any duplicates for product_name and product_id which could lead to misrepresentation of values in the data
+GROUP BY
+product_id,
+product_name;
+#determines whether there are any null values that would need to be filtered to make sure the data is clean
+SELECT product_id is NULL OR product_name is NULL OR aisle_id is NULL OR department_id is NULL
+FROM  temp-424017.GroceryStoreConsumerPurchases_Data.Product_Data;
+
+
+
+
+ Analysis:
+#Creating a new data table that contains columns from both the aisle dataset and the product dataset so that the aisle id's, aisle names, product id and product names are included in one table
+WITH Product_Aisle_Table AS(
+SELECT Products.product_name, Aisle.aisle, Products.product_id, Aisle.aisle_id
+FROM temp-424017.GroceryStoreConsumerPurchases_Data.Product_Data AS Products
+
+
+INNER JOIN temp-424017.GroceryStoreConsumerPurchases_Data.Aisles_Data #Using inner join to join the aisle names and aisle id's
+AS Aisle
+
+
+ON Products.aisle_id= Aisle.aisle_id) #matching up the primary key aisle id in the aisles table with the foreign key in the products table to join both tables
+
+
+
+
+SELECT Product_Aisle.aisle, AVG(Orders.add_to_cart_order) #selecting the two columns needed for comparison from each table
+
+
+FROM Product_Aisle_Table AS Product_Aisle
+
+
+INNER JOIN
+temp-424017.GroceryStoreConsumerPurchases_Data.order_products_train_data AS Orders #joining the data from the orders table with the newly created Product_Aisle table
+
+
+ON
+Product_Aisle.product_id=Orders.product_id #joining the two tables by matching up the primary key product id in the product aisle table with the foreign key product id in the orders table to join both tables
+
+
+GROUP BY
+Product_Aisle.aisle
+
+
+ORDER BY
+AVG(Orders.add_to_cart_order) DESC;
