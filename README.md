@@ -1,22 +1,3 @@
-ASK:
-Problem:
-An employer from a company who focuses on low sugar products has developed a new sweetener and wants to determine which product category possesses the most consumer demand for natural sweeteners so they know which business would be their ideal customers. They want you to find a dataset containing information on consumer purchases and use that dataset to determine which food product category has the most demand to produce items that are low in sugar.
-
-
-
-1.What sweet goods are currently the most popular among consumers
-2.What sweetened goods drive the most grocery sales
-3.What platform is a good representative of consumer sales 
-
-
-Prepare:
-The dataset used is one that contains data points pertaining to consumer purchases of online grocery store items from instacart. It is divided into six csv files organized in the form of rows and columns. These files include:
-Product.csv
-Aisle.csv
-Department.csv
-Orders.csv
-Before being processed, the product dataset was uploaded onto excel and it’s contents were filtered to only include items that fall in sweetened goods categories. This was done by first filtering the aisle column and formatting the other columns to organize themselves with respect to the filter. 
-
 
 
 
