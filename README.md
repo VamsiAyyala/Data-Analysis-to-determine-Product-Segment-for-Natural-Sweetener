@@ -29,9 +29,9 @@ My recommendations:
 1.The manufacturer as a result should focus on developing their business by first selling their product to popular and innovative ice cream brands and observe if they are able to generate a sizable revenue and profit from such a transaction before moving their efforts onto the second most popular, the third and so on and so forth.
 
 
-2. The manufacturer should also expect the summer, fall and winter seasons to be their most profitable as the weather and seasonal holidays drive ice cream, juice, and candy (The top three products that are in most demand by consumers). As a result they should direct most of their marketing and inventory storage efforts to consumers and businesses during these times.
+2.The manufacturer should also expect the summer, fall and winter seasons to be their most profitable as the weather and seasonal holidays drive ice cream, juice, and candy (The top three products that are in most demand by consumers). As a result they should direct most of their marketing and inventory storage efforts to consumers and businesses during these times.
 
-3. The business owner should also take into account that two income streams can be generated from both selling to businesses and to consumers. If products are targeted towards consumers than 
+3.The business owner should also take into account that two income streams can be generated from both selling to businesses and to consumers. If products are targeted towards consumers than 
 
 
 
