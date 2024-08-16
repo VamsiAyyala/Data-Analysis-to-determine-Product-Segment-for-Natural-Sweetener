@@ -9,13 +9,13 @@ Data used:
 
 The dataset used is one that contains data points pertaining to consumer purchases of online grocery store items from instacart. It is divided into six csv files organized in the form of rows and columns. These files include:
 
-Product.csv
+1.Product.csv
 
-Aisle.csv
+2.Aisle.csv
 
-Department.csv
+3.Department.csv
 
-Orders.csv
+4.Orders.csv
 
 Before being processed, the product dataset was uploaded onto excel and it’s contents were filtered to only include items that fall in sweetened goods categories. This was done by first filtering the aisle column and formatting the other columns to organize themselves with respect to the filter. 
 
