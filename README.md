@@ -22,7 +22,8 @@ Before being processed, the product dataset was uploaded onto excel and it’s c
 
 Conclusion:
 
-The results of the analysis as indicated by the graph show that the most popular sweetened goods that consumers purchase pertain to the ice cream and frozen desserts category followed by juice, candy, baked sweets and soft drinks. 
+The results of the analysis as indicated by the graph show that the most popular sweetened goods that consumers purchase pertain to the ice cream and frozen desserts category followed by juice, candy, baked sweets and soft drinks.
+
 My recommendations:
 
 1.The manufacturer as a result should focus on developing their business by first selling their product to popular and innovative ice cream brands and observe if they are able to generate a sizable revenue and profit from such a transaction before moving their efforts onto the second most popular, the third and so on and so forth.
